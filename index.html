@@ -9,12 +9,14 @@
 </head>
 
 <body>
-    <div style="background-color: #ffcc00; color: #333; padding: 10px; text-align: center; font-weight: bold;">
+    <div class="announcement-bar"
+        style="background-color: #ffcc00; color: #333; padding: 10px; text-align: center; font-weight: bold;">
         🚧 This site is still under construction. Thanks for your patience! 🚧
     </div>
+
     <header class="hero-section">
-        <div class="=container">
-            <div calss="logo">Breath<span>Natural</span></div>
+        <!-- Top Navigation -->
+        <div class="top-bar">
             <div class="logo">Planto</div>
             <nav class="nav-links">
                 <a href="#">Home</a>
@@ -29,38 +31,78 @@
                 <img src="images/search.png" alt="Search Icon">
                 <img src="images/bag.png" alt="Cart Icon">
             </div>
-            <div class="hero-content">
-                <h1>Feel the freshness of <br> natural plants</h1>
-                <p>Beautiful greenery for your home or workspace.</p>
+        </div>
+        <div class="hero-content">
+            <h1 class="logo">Breath<span>Natural</span></h1>
+            <!-- <h1>Feel the freshness of <br> natural plants</h1> -->
+            <p>Beautiful greenery for your home or workspace.</p>
 
-                <div class="cta-buttons">
-                    <button class="btn explore-btn">
-                        Explore
-                    </button>
+            <div class="cta-buttons">
+                <button class="btn explore-btn">
+                    Explore
+                </button>
 
-                    <button class="btn live-btn">
-                        <img src="/images/play-button-icon-png-0.png" alt="Live" />
-                        Live
-                    </button>
-                </div>
-
-
+                <button class="btn live-btn">
+                    <img src="/images/play-button-icon-png-0.png" alt="Live" />
+                    Live
+                </button>
             </div>
-            <div>
+
+            <!-- Floating profile card -->
+            <div class="profile-card">
+                <img src="images/profile.png" alt="User" />
                 <div>
-                    <p>Trendy House Plan</p>
-                    <h3>Cathalea plant</h3>
-                    <img src="images/Cathalea.png" alt="Calathea">
-                    <button class="buynow"> Buy now</button>
+                    <h4>Arwa Patel</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde est pariatur...</p>
                 </div>
             </div>
-            <div>
-
+            <div class="center-plant">
+                <img src="images/main-plant.png" alt="Main Plant" />
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+        </div>
+        <!-- Floating right promo card -->
+        <div class="floating-card">
+
+            <p class="tag">Trendy House Plan</p>
+            <h3>Cathalea plant</h3>
+            <img src="images/Cathalea.png" alt="Calathea">
+            <button class="btn buynow-btn"> Buy now</button>
+
+        </div>
     </header>
+
+    <main>
+        <!-- Trendy Label -->
+        <section class="trend-label">
+            <h2>Our Trendy plants</h2>
+        </section>
+
+        <!-- Two Horizontal Product Cards -->
+        <section class="horizontal-products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="images/plant1.png" alt="Plant 1" />
+                <div class="info">
+                    <h3>For Small Decs Ai Plat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <p class="price">Rs. 599/-</p>
+                    <button class="btn explore-btn">Explore</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="images/plant2.png" alt="Plant 2" />
+                <div class="info">
+                    <h3>For Fresh Decs Ai Plat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <p class="price">Rs. 579/-</p>
+                    <button class="btn explore-btn">Explore</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 
 </html>
